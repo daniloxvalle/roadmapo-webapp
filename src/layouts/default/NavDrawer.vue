@@ -90,7 +90,7 @@ import { useDisplay } from 'vuetify'
 // import { useProductStore } from '@/store/product_store'
 const { name } = useDisplay()
 
-const rail = ref(false);
+const rail = ref(true);
 // const drawer = ref(false);
 const route = useRoute()
 const componentKey = ref(0);
