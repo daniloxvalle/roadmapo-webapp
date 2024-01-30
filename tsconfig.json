@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "allowSyntheticDefaultImports": true,
+    "composite": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true, /* Skip type checking all .d.ts files. */
+    "removeComments": true,
+    "allowJs": true, /* Allow JS modules import. */ 
+    "lib": ["esnext", "dom"],
+    "types": [
+      "node",
+      "vuetify"
+    ],
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "outDir": "./dist",
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "vite.config.ts",
+    "src/helpers/defineCustomElementWithStyles.js",
+  ]
+}
